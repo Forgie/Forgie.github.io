@@ -198,6 +198,25 @@ module.exports = function (grunt) {
       }
     },
 
+    bower: {
+      install: {
+        options: {
+          cleanTargetDir: true,
+          cleanBowerDir: true,
+          install: true,
+          copy: true
+        }
+      },
+      cleanup: {
+        options: {
+          cleanTargetDir: true,
+          cleanBowerDir: true,
+          install: false,
+          copy: false
+        }
+      }
+    },
+
     // Automatically inject Bower components into the app
     wiredep: {
       app: {

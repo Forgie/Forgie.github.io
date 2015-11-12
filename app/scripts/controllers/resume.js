@@ -2,11 +2,11 @@
 
 /**
  * @ngdoc function
- * @name forgiegithubioApp.controller:MainCtrl
+ * @name forgiegithubioApp.controller:AboutCtrl
  * @description
- * # MainCtrl
+ * # AboutCtrl
  * Controller of the forgiegithubioApp
  */
 angular.module('forgiegithubioApp')
-  .controller('MainCtrl', function () {
+  .controller('ResumeCtrl', function () {
   });

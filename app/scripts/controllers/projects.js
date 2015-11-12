@@ -8,10 +8,5 @@
  * Controller of the forgiegithubioApp
  */
 angular.module('forgiegithubioApp')
-  .controller('AboutCtrl', function () {
-    this.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
+  .controller('ProjectsCtrl', function () {
   });
